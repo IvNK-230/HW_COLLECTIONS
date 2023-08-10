@@ -21,6 +21,7 @@ public class GameTest {
         int expected = game.round("Стамбул", "Мюнхен");
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldRegisterPlayersAndSecondWin() {
         game.register(player3);
